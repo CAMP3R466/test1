@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script>
+        window.onload = function() {
+            var formLink1 = "https://docs.google.com/forms/d/e/1FAIpQLSfAWqA4CD4XaG1LrUVwxj9heXTBRLXcRiAl8y1RnAHSezfbeA/viewform?usp=pp_url&entry.2057193235=Mo%C5%BEnos%C5%A5+1";
+            var formLink2 = "https://docs.google.com/forms/d/e/1FAIpQLSfAWqA4CD4XaG1LrUVwxj9heXTBRLXcRiAl8y1RnAHSezfbeA/viewform?usp=pp_url&entry.2057193235=Mo%C5%BEnos%C5%A5+2";
+
+            var randomLink = Math.random() < 0.5 ? formLink1 : formLink2;
+            window.location.href = randomLink;
+        };
+    </script>
+</head>
+<body>
+    <p>Přesměrování...</p>
+</body>
+</html>
